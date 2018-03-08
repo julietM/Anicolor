@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Animacion</title>
+    </head>
+    <style>
+        body{
+            background: #070707;
+        }
+    .circulo{
+
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #093774;
+        animation-name: anim4; 
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+    }
+    .circulo1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #8B2708;
+        margin-left: 330px;
+        margin-top:-300px;
+        animation-name: anim8; 
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    .circulo3{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #E4990E;
+        margin-left: 630px;
+        margin-top:-300px;
+        animation-name: anim1; 
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .circulo4{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #750554;
+        margin-left: 930px;
+        margin-top:-300px;
+        animation-name: anim7; 
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+   
+    @keyframes anim4{
+     0%{transform: translate(0);}
+     50%{transform: translateY(300px);}
+     80%{transform: translateZ(400px);}
+     100%{background: yellowgreen};
+  
+
+    }
+    @keyframes anim8{
+     0%{transform: translate(0);}
+     50%{transform: translateY(340px);}
+     80%{transform: translateZ(200px);}
+     100%{background: #777735};
+    }
+    @keyframes anim1{
+     0%{transform: translate(0);}
+     50%{transform: translateY(440px);}
+     80%{transform: translateZ(200px);}
+     100%{background: #EC14D0};
+    }
+    @keyframes anim7{
+     0%{transform: translate(0);}
+     50%{transform: translateY(640px);}
+     80%{transform: translateZ(300px);}
+     100%{background: #585803};
+    }
+    .circulo2{
+        transition:5s;
+     }
+    </style>
+    <body>
+        <div class="wrapper">
+        <div class="circulo"></div>
+        <div class="circulo1"></div>
+        <div class="circulo3"></div>
+        <div class="circulo4"></div>
+       
+        </div>
+    </body>
+</html>
